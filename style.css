@@ -1,0 +1,5 @@
+/* Empty feedback should not add space inside the poll. */
+.status:empty,
+.results:empty {
+    display: none;
+}
