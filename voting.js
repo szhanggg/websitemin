@@ -75,7 +75,7 @@ for (const form of document.querySelectorAll("form[data-poll]")) {
 
                 const item = document.createElement("div");
                 const marker = option.value === votedAnswer ? " (you)" : "";
-                item.textContent = `${option.label}: ${percent}%${marker}`;
+                item.textContent = `${option.label}: ${count} (${percent}%)${marker}`;
                 breakdown.append(item);
             }
 
